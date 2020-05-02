@@ -16,4 +16,3 @@ for letter in input_word:
     print('{}: {}'.format(letter, count))
     count = 0
     checker.append(letter)
-

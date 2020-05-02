@@ -30,4 +30,3 @@ while operators:
         arguments.append(y / x)
 
 print(arguments.pop(0))
-

@@ -14,16 +14,18 @@ def heapify(arr: list, heap_size: int, current_node_index: int):
         arr[current_node_index], arr[largest_node_index] = arr[largest_node_index], arr[current_node_index]
         heapify(arr, heap_size, largest_node_index)
 
+
 def heap_sort(arr):
     heap_size = len(arr)
 
     # Maximal Heap initialization
-    for i in range(heap_size//2 - 1, -1, -1):
+    for i in range(heap_size // 2 - 1, -1, -1):
         heapify(arr, heap_size, i)
 
-    for i in range(heap_size -1, 0, -1):
+    for i in range(heap_size - 1, 0, -1):
         arr[i], arr[0] = arr[0], arr[i]
         heapify(arr, i, 0)
+
 
 arr = [4, 10, 3, 5, 1]
 print(arr)
