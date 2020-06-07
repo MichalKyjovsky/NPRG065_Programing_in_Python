@@ -1,0 +1,15 @@
+ <library name="My library name">
+	<book>
+		<name language="English">Expert Python Programming - Second Edition</name>
+		<name language="Czech">Expertní programování v Pythonu - Druhá edice</name>
+	</book>
+	<book>
+		<name language="English">Modern Python Cookbook</name>
+	</book>
+	<book>
+		<name language="English">Learning Python</name>
+	</book>
+	<book>
+		<name language="English">Fluent python</name>
+	</book>
+ </library>

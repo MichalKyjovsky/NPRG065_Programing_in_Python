@@ -1,0 +1,27 @@
+version: 1
+formatters:
+  simple:
+    format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+handlers:
+  console:
+    class: logging.StreamHandler
+    level: WARN
+    formatter: simple
+    stream: ext://sys.stderr
+  file:
+    class: logging.FileHandler
+    level: INFO
+    formatter: simple
+    filename: output.log
+loggers:
+  complex_logger:
+    level: INFO
+    handlers: [console, file]
+    propagate: no
+  another_logger:
+    level: WARN
+    handlers: [console]
+    propagate: no
+root:
+  level: WARN
+  handlers: [console]

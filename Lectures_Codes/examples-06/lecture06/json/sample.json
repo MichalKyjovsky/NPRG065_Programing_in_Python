@@ -1,0 +1,16 @@
+{
+	"connection": {
+		"user":"test",
+		"password":"secure_password",
+		"server":"domain.com"
+	},
+	"options": {
+		"components":[
+			"networking",
+			"processing",
+			"logging",
+			"user interface"
+		],
+		"verbose":true
+	}
+}
