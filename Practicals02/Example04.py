@@ -10,7 +10,7 @@ if lower_bound > upper_bound:
     lower_bound = upper_bound
     upper_bound = pom
 
-for i in range(lower_bound, upper_bound + 1): 
+for i in range(lower_bound, upper_bound + 1):
     for j in range(lower_bound, i):
         if i % j == 0:
             break

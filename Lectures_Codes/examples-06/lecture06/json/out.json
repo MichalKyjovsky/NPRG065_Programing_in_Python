@@ -1,0 +1,12 @@
+{
+  "version": 1234,
+  "tasks": [
+    "load",
+    "process",
+    "store"
+  ],
+  "mapping": {
+    "1": "a",
+    "2": "b"
+  }
+}

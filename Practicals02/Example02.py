@@ -1,6 +1,6 @@
 #! /usr/bin/env Python 3
 
-import sys 
+import sys
 import os
 
 input_str = sys.argv[1]

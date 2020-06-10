@@ -11,5 +11,3 @@ for i in number_str_arr:
     buffer_n += int(i)
 
 print(buffer_n)
-
-
